@@ -1,0 +1,21 @@
+{
+  "name": "it23361522_assignment1",
+  "version": "1.0.0",
+  "description": "IT3040 Assignment 1 – Transliteration Accuracy Testing (IT23361522)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "create-excel": "node create-excel.js",
+    "inspect": "node inspect.js"
+  },
+  "keywords": [],
+  "author": "IT23361522",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "csv-parse": "^6.2.1"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
